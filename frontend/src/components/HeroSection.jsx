@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const BASE = 'http://localhost:8080/api';
+const BASE = 'https://greennest-production.up.railway.app/api';
 
 export default function HeroSection({ onAuth, modeRef }) {
   const [mode, setMode]       = useState('signup');

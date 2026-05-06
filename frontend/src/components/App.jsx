@@ -10,7 +10,7 @@ import OrdersPage         from "./OrdersPage";
 import TestimonialSection from "./TestimonialSection";
 import Footer             from "./Footer";
 
-const BASE = 'http://localhost:8080/api';
+const BASE = 'https://greennest-production.up.railway.app/api';
 
 export default function App() {
   const [user, setUser]           = useState(null);

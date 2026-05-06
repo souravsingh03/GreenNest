@@ -9,7 +9,7 @@ const FALLBACK = [
 export default function TestimonialSection() {
   const [list, setList] = useState(FALLBACK);
   useEffect(() => {
-    fetch('http://localhost:8080/api/testimonials')
+    fetch('https://greennest-production.up.railway.app/api/testimonials')
       .then(r => r.json())
       .then(d => { if (Array.isArray(d) && d.length) setList(d); })
       .catch(() => {});

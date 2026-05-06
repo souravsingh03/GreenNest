@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from "react";
 import PlantCard from "./PlantCard";
 import ProductModal from "./ProductModal";
 
-const BASE = 'http://localhost:8080/api';
+const BASE = 'https://greennest-production.up.railway.app/api';
 
 // ── Real image URLs for every product ────────────────────────────────────────
 // Hosted on Wikimedia Commons (public domain, no auth, no CORS issues)

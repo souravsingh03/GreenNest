@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8080/api';
+const BASE_URL = 'https://greennest-production.up.railway.app/api';
 
 function getToken() {
   return localStorage.getItem('gn_token');

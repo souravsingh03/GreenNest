@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PlantCard from "./PlantCard";
 
-const BASE = 'http://localhost:8080/api';
+const BASE = 'https://greennest-production.up.railway.app/api';
 
 const FALLBACK = {
   "INDOOR_PLANT": [

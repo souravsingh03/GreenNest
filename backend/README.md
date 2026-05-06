@@ -81,7 +81,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-The server starts at **http://localhost:8080**
+The server starts at **https://greennest-production.up.railway.app**
 
 ### 3. On first startup
 
@@ -215,15 +215,15 @@ testimonials   → id, user_id, quote, rating, is_approved, created_at
 
 ```bash
 # Register
-curl -X POST http://localhost:8080/api/auth/register \
+curl -X POST https://greennest-production.up.railway.app/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{"name":"Test User","email":"test@example.com","password":"pass123"}'
 
 # Get products
-curl http://localhost:8080/api/products
+curl https://greennest-production.up.railway.app/api/products
 
 # Add to cart (replace TOKEN)
-curl -X POST http://localhost:8080/api/cart/add \
+curl -X POST https://greennest-production.up.railway.app/api/cart/add \
   -H "Authorization: Bearer TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"productId":1,"quantity":2}'

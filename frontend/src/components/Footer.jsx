@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BASE = 'http://localhost:8080/api';
+const BASE = 'https://greennest-production.up.railway.app/api';
 
 export default function Footer() {
   const [email, setEmail]   = useState('');
